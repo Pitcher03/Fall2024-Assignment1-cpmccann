@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="js/site.js"></script>
 </head>
 <body>
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -32,6 +34,219 @@
         <line x1="700" y1="0" x2="-300" y2="500" />
         <line x1="150" y1="0" x2="-850" y2="500" />
     </svg>
+    <div id="preview">
+        <div id="label">Rick and Morty</div>
+        <iframe id="trailer"
+                src="https://www.youtube.com/embed/PkZtVBNkmso?autoplay=1&mute=1"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+        </iframe>
+    </div>
+    <div id="container-1" class="container">
+        <div id="info">
+            <div id="poster">
+                <img id="cover-art" src="https://m.media-amazon.com/images/I/81LBzgzf0iL.jpg" />
+            </div>
+            <div id="other">
+                <button id="watch"><i class="fa fa-play"></i>&nbsp;Watch Now</button>
+                <div id="pfp">
+                    <img src="https://target.scene7.com/is/image/Target/GUEST_60d4d606-d574-4c5e-a88d-5eca3f9d26d3?wid=488&hei=488&fmt=pjpeg" />
+                </div>
+                <h1 id="title">
+                    Rick and Morty
+                </h1>
+                <div id="extra">
+                    <span>
+                        <button id="trailer-button"><i class="fa fa-video"></i>&nbsp;Trailer</button>
+                    </span>
+                    <span>
+                        <button id="hd-icon">HD</button>
+                    </span>
+                    <span>
+                        <a id="imdb" href="https://m.imdb.com/title/tt2861424/">IMDB: 9.1</a>
+                    </span>
+                </div>
+                <p id="summary">
+                    Rick is a mentally-unbalanced but scientifically-gifted old man who has recently
+                    reconnected with his family. He spends most of his time involving his young grandson
+                    Morty in dangerous, outlandish adventures throughout space and alternate universes.
+                    Compounded with Morty's already unstable family life, these events cause Morty much
+                    distress at home and school.
+                </p>
+                <div>
+                    <table id="more-info">
+                        <tr>
+                            <td><b>Released: </b>2013-12-02</td>
+                            <td><b>Duration: </b>22 min</td>
+                        </tr>
+                        <tr>
+                            <td><b>Genre: </b>Sci-Fi, Fantasy, Animation, Comedy, Dark</td>
+                            <td><b>Seasons: </b>7</td>
+                        </tr>
+                        <tr>
+                            <td><b>Actors: </b>Justin Roiland, Chris Parnell, Spencer Grammer, Sarah Chalke, Kari Wahlgren</td>
+                            <td><b>Highest Rated: </b>9.8 - The Ricklantis Mixup</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="container-2" class="container">
+        <div>
+            <span id="episodes">Episodes</span>
+            <span>
+                <i class="fa fa-list fa-lg"></i>
+                <select id="seasons">
+                    <option value="1" selected>Season 1</option>
+                    <option value="2">Season 2</option>
+                    <option value="3">Season 3</option>
+                    <option value="4">Season 4</option>
+                    <option value="5">Season 5</option>
+                    <option value="6">Season 6</option>
+                    <option value="7">Season 7</option>
+                </select>
+            </span>
+        </div>
+        <table id="season-1" class="season">
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Pilot</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 2</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 3</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 4</td>
+            </tr>
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 5</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 6</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 7</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 8</td>
+            </tr>
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 9</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 10</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 11</td>
+            </tr>
+        </table>
+        <table id="season-2" class="season">
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;S2 Eps 1</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 2</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 3</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 4</td>
+            </tr>
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 5</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 6</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 7</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 8</td>
+            </tr>
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 9</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 10</td>
+            </tr>
+        </table>
+        <table id="season-3" class="season">
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;S3 Eps 1</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 2</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 3</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 4</td>
+            </tr>
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 5</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 6</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 7</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 8</td>
+            </tr>
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 9</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 10</td>
+            </tr>
+        </table>
+        <table id="season-4" class="season">
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;S4 Eps 1</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 2</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 3</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 4</td>
+            </tr>
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 5</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 6</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 7</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 8</td>
+            </tr>
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 9</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 10</td>
+            </tr>
+        </table>
+        <table id="season-5" class="season">
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;S5 Eps 1</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 2</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 3</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 4</td>
+            </tr>
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 5</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 6</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 7</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 8</td>
+            </tr>
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 9</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 10</td>
+            </tr>
+        </table>
+        <table id="season-6" class="season">
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;S6 Eps 1</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 2</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 3</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 4</td>
+            </tr>
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 5</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 6</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 7</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 8</td>
+            </tr>
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 9</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 10</td>
+            </tr>
+        </table>
+        <table id="season-7" class="season">
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;S7 Eps 1</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 2</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 3</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 4</td>
+            </tr>
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 5</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 6</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 7</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 8</td>
+            </tr>
+            <tr>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 9</td>
+                <td class="episode"><i class="fa fa-play"></i>&nbsp;Episode 10</td>
+            </tr>
+        </table>
+        <ul>
+            <li>Notice: I know how to use things like lists and all the other assignment requirements, 
+            I am leaving out because I plan on using this site for future development and want it to look 
+            clean and simple.</li>
+            <li>I looked into finding actual video files of the streams online and didn't
+            have any (free) luck.</li>
+            <li>Not sure how other streaming sites do it but they are quite impressive...</li>
+        </ul>
+    </section>
 </body>
 
 </html>
